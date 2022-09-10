@@ -124,7 +124,7 @@
     <value>Launcher info</value>
   </data>
   <data name="MainWindowTitle" xml:space="preserve">
-    <value>Glacer Minecraft Server Launcher</value>
+    <value>Glacier Minecraft Server Launcher</value>
   </data>
   <data name="Mbox_JavaNotInstalledText" xml:space="preserve">
     <value>Java not installed. Please visit https://oracle.com/ to download Java first. </value>

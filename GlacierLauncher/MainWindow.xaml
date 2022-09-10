@@ -20,7 +20,7 @@
             <RowDefinition Height="23*"/>
             <RowDefinition Height="419*"/>
         </Grid.RowDefinitions>
-        <Label x:Name="MainWindowTitle" Content="Glacer Minecraft Server Launcher" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="792" Foreground="#FFC6DAC7" MouseMove="MainWindowTitle_MouseMove">
+        <Label x:Name="MainWindowTitle" Content="Glacier Minecraft Server Launcher" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="792" Foreground="#FFC6DAC7" MouseMove="MainWindowTitle_MouseMove">
             <Label.Background>
                 <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                     <GradientStop Color="#7F00FFFF"/>

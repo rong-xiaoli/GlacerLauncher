@@ -22,14 +22,14 @@ namespace GlacierLauncher.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources_zh_CN {
+    internal class Resources_en_US {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources_zh_CN() {
+        internal Resources_en_US() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace GlacierLauncher.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GlacierLauncher.Properties.Resources_zh-CN", typeof(Resources_zh_CN).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GlacierLauncher.Properties.Resources_en-US", typeof(Resources_en_US).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,25 +61,25 @@ namespace GlacierLauncher.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Java 路径: 的本地化字符串。
+        ///   查找类似 Java path: 的本地化字符串。
         /// </summary>
-        internal static string JavaPathLabelText {
+        internal static string JavaPathLabel {
             get {
-                return ResourceManager.GetString("JavaPathLabelText", resourceCulture);
+                return ResourceManager.GetString("JavaPathLabel", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找类似 启动器信息 的本地化字符串。
+        ///   查找类似 Launcher info 的本地化字符串。
         /// </summary>
-        internal static string LauncherInfoTagText {
+        internal static string LauncherInfoTag {
             get {
-                return ResourceManager.GetString("LauncherInfoTagText", resourceCulture);
+                return ResourceManager.GetString("LauncherInfoTag", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找类似 Glacer 我的世界服务器启动器 的本地化字符串。
+        ///   查找类似 Glacier Minecraft Server Launcher 的本地化字符串。
         /// </summary>
         internal static string MainWindowTitle {
             get {
@@ -88,7 +88,7 @@ namespace GlacierLauncher.Properties {
         }
         
         /// <summary>
-        ///   查找类似 Java 未安装。请先访问https://www.oracle.com/cn/下载Java。 的本地化字符串。
+        ///   查找类似 Java not installed. Please visit https://oracle.com/ to download Java first.  的本地化字符串。
         /// </summary>
         internal static string Mbox_JavaNotInstalledText {
             get {
@@ -97,11 +97,11 @@ namespace GlacierLauncher.Properties {
         }
         
         /// <summary>
-        ///   查找类似 服务器信息 的本地化字符串。
+        ///   查找类似 Server info 的本地化字符串。
         /// </summary>
-        internal static string ServerInfoTabText {
+        internal static string ServerInfoTab {
             get {
-                return ResourceManager.GetString("ServerInfoTabText", resourceCulture);
+                return ResourceManager.GetString("ServerInfoTab", resourceCulture);
             }
         }
     }

@@ -124,7 +124,7 @@
     <value>启动器信息</value>
   </data>
   <data name="MainWindowTitle" xml:space="preserve">
-    <value>Glacer 我的世界服务器启动器</value>
+    <value>Glacier 我的世界服务器启动器</value>
   </data>
   <data name="Mbox_JavaNotInstalledText" xml:space="preserve">
     <value>Java 未安装。请先访问https://www.oracle.com/cn/下载Java。</value>
