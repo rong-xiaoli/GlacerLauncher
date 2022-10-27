@@ -20,7 +20,7 @@
             <RowDefinition Height="23*"/>
             <RowDefinition Height="419*"/>
         </Grid.RowDefinitions>
-        <Label x:Name="MainWindowTitle" Content="Glacier Minecraft Server Launcher" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="792" Foreground="#FFC6DAC7" MouseMove="MainWindowTitle_MouseMove">
+        <Label x:Name="MainWindowTitle" Content="Glacier 我的世界服务器启动器" HorizontalAlignment="Left" Height="23" VerticalAlignment="Top" Width="792" Foreground="#FFC6DAC7" MouseMove="MainWindowTitle_MouseMove">
             <Label.Background>
                 <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
                     <GradientStop Color="#7F00FFFF"/>
@@ -40,13 +40,14 @@
         </Button>
         <Button x:Name="MainWindowCloseButton" Content="X" HorizontalAlignment="Left" Height="23" Margin="756,0,0,0" VerticalAlignment="Top" Width="36" Background="#00DDDDDD" FontSize="20" Foreground="#FFA6A6A6" Click="MainWindowCloseButton_Click"/>
         <TabControl x:Name="MainWindowConfigTab" HorizontalAlignment="Left" Height="399" Grid.Row="1" VerticalAlignment="Top" Width="772" Margin="10,10,0,0">
-            <TabItem x:Name="LauncherInfoTag" Header="Launcher info">
+            <TabItem x:Name="LauncherInfoTag" Header="启动器信息">
                 <Grid x:Name="LauncherInfoTagGrid" Background="#FFE5E5E5">
-                    <Label x:Name="JavaPathLabel" Content="Java path: " HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" VerticalAlignment="Top" Width="70"/>
+                    <Label x:Name="JavaPathLabel" Content="Java 路径:" HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" VerticalAlignment="Top" Width="70"/>
                     <TextBox x:Name="JavaPathTextBox" HorizontalAlignment="Left" Height="25" Margin="80,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" IsReadOnly="True" VerticalContentAlignment="Center" Text="java.exe" MaxLines="1"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Height="37" Margin="74,53,0,0" VerticalAlignment="Top" Width="144" Click="Button_Click"/>
                 </Grid>
             </TabItem>
-            <TabItem x:Name="ServerInfoTab" Header="Server info">
+            <TabItem x:Name="ServerInfoTab" Header="服务器信息">
                 <Grid x:Name="ServerInfoTabGrid" Background="#FFE5E5E5">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="37*"/>

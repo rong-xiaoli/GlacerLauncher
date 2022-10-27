@@ -13,8 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-using System.Globalization;
-using System.Resources;
 using System.Threading;
 using System.Windows.Threading;
 
@@ -45,23 +43,11 @@ namespace GlacierLauncher
             //Initialize Dynamic variables. 
             GlobalDynamicVars = new DynamicVars();
             StaticVars.SV_MainWindow = this;
-            //Initialize region & resources. 
-            StaticVars.SV_CurrentRegion = Thread.CurrentThread.CurrentCulture.LCID;
-            switch (StaticVars.SV_CurrentRegion)
-            {
-                case 2052:
-                    GlobalDynamicVars.DV_MainWindowResourceManager = Properties.Resources_zh_CN.ResourceManager;
-                    break;
-                case 10250:
-                default:
-                    GlobalDynamicVars.DV_MainWindowResourceManager = Properties.Resources_en_US.ResourceManager;
-                    break;
-            }
             
             //Judge if java exists. 
             if (!JavaRelated.isJavaExist(out StaticVars.SV_IsJava64Bit))
             {
-                System.Windows.Forms.MessageBox.Show(GlobalDynamicVars.DV_MainWindowResourceManager.GetString("Mbox_JavaNotInstalledText"));
+                System.Windows.Forms.MessageBox.Show("Java 未安装。请先访问https://www.oracle.com/cn/下载Java。");
                 App.Current.Shutdown(1);
             }
 
@@ -98,6 +84,11 @@ namespace GlacierLauncher
             {
                 DragMove();
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            LogWindow log;
         }
     }
 }
